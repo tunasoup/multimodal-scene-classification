@@ -1,0 +1,16 @@
+opencv-python==4.5.1.48
+numpy==1.19.5
+resampy==0.2.2
+tensorflow==2.4.1
+tf-slim==1.1.0
+six==1.15.0
+SoundFile==0.10.3.post1
+matplotlib==3.3.4
+PyQt5==5.15.4
+pandas==1.2.2
+scikit-learn==0.24.1
+
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cu110
+torchaudio==0.7.2
+torchvision==0.8.2+cu110

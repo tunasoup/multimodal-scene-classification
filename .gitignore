@@ -1,0 +1,13 @@
+__pycache__/
+
+# Environments
+.venv
+.env
+venv/
+env/
+
+# Custom
+.idea/
+data/
+models/audio/vggish/*.ckpt
+models/audio/vggish/*.npz
