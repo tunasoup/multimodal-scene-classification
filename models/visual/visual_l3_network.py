@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-from utilities.network_functions import train_nn, test_nn
+from utility.network_functions import train_nn, test_nn
 from definitions import (VISUAL_L3_TRAIN_FEATURES_FILE,
                          VISUAL_L3_VAL_FEATURES_FILE,
                          VISUAL_L3_TEST_FEATURES_FILE, BEST_VISUAL_L3_MODEL,

@@ -7,12 +7,12 @@ import torch.nn as nn
 import torch.optim as optim
 from matplotlib.pyplot import show
 
-from utilities.fusion_functions import (train_nn_combiner_model,
-                                        test_nn_combiner)
+from utility.fusion_functions import (train_nn_combiner_model,
+                                      test_nn_combiner)
 from definitions import (MODELS_TRAIN_OUTPUTS_FILE, MODELS_VAL_OUTPUTS_FILE,
                          MODELS_TEST_OUTPUTS_FILE,
                          BEST_COMBINER_MODEL)
-from utilities.utilities import FusionData, Features
+from utility.utilities import FusionData, Features
 
 
 class CombinerModel(nn.Module):

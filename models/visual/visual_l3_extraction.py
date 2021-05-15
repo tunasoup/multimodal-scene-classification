@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 from skimage.io import imread
 
-from utilities.global_utilities import time_estimation, create_file_directory
+from utility.global_utilities import time_estimation, create_file_directory
 from definitions import (IMAGE_TEST_DIR, IMAGE_TRAIN_DIR,
                          IMAGE_TRAIN_SPLIT_CSV, VISUAL_L3_TRAIN_FEATURES_FILE,
                          IMAGE_VAL_CSV, IMAGE_TEST_CSV,

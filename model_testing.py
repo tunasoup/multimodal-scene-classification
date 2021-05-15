@@ -14,16 +14,16 @@ from matplotlib.pyplot import show
 
 from models import (AudioVGGishModel, AudioL3Model, VisualResnetModel,
                     VisualL3Model, CombinerModel)
-from utilities.utilities import (FusionInfo, Features, FusionData,
-                                 create_model_and_features, load_model)
-from utilities.fusion_functions import (test_single_model,
-                                        weighted_mean_rule_func, max_rule_func,
-                                        product_rule_func,
-                                        min_rule_func, jury_func,
-                                        mode_rule_func, median_rule_func, deep_rule_func,
-                                        test_combiner,
-                                        custom_mode_rule_func, custom_median_rule_func,
-                                        mean_rule_func, weighted_label_mean_rule_func)
+from utility.utilities import (FusionInfo, Features, FusionData,
+                               create_model_and_features, load_model)
+from utility.fusion_functions import (test_single_model,
+                                      weighted_mean_rule_func, max_rule_func,
+                                      product_rule_func,
+                                      min_rule_func, jury_func,
+                                      mode_rule_func, median_rule_func, deep_rule_func,
+                                      test_combiner,
+                                      custom_mode_rule_func, custom_median_rule_func,
+                                      mean_rule_func, weighted_label_mean_rule_func)
 from definitions import (BEST_AUDIO_VGGISH_MODEL,
                          BEST_VISUAL_RESNET_MODEL,
                          VISUAL_RESNET_TEST_FEATURES_FILE,
@@ -462,14 +462,14 @@ if __name__ == '__main__':
 
     # Collect fusions for testing
     fusions = {
-        'audio_vggish': info_audio_vggish,
-        'audio_l3': info_audio_l3,
-        'visual_resnet': info_visual_resnet,
-        'visual_l3': info_visual_l3,
+        #'audio_vggish': info_audio_vggish,
+        #'audio_l3': info_audio_l3,
+        #'visual_resnet': info_visual_resnet,
+        #'visual_l3': info_visual_l3,
         'mean': info_mean,
         #'acc weighted mean': info_acc_weighted_mean,
         #'f1 weighted mean': info_f1_weighted_mean,
-        #'f1 weighted label mean': info_f1_weighted_label_mean,
+        'f1 weighted label mean': info_f1_weighted_label_mean,
         #'min': info_min,
         #'max': info_max,
         #'product': info_product,

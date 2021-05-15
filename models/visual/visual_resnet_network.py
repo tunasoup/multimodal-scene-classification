@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.optim as optim
 from matplotlib.pyplot import show
 
-from utilities.network_functions import train_nn, test_nn
+from utility.network_functions import train_nn, test_nn
 from definitions import (VISUAL_RESNET_TRAIN_FEATURES_FILE,
                          VISUAL_RESNET_VAL_FEATURES_FILE,
                          VISUAL_RESNET_TEST_FEATURES_FILE,

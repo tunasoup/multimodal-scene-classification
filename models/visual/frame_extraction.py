@@ -8,8 +8,8 @@ import time
 import cv2 as cv
 import pandas as pd
 
-from utilities.csv_handling import generate_image_csv_from_dir_csv
-from utilities.global_utilities import time_estimation
+from utility.csv_handling import generate_image_csv_from_dir_csv
+from utility.global_utilities import time_estimation
 from definitions import (IMAGE_TRAIN_DIR, IMAGE_TEST_DIR,
                          IMAGE_VAL_DIR,
                          FRAMES_PER_VIDEO, TAU_VIDEO_DIR,

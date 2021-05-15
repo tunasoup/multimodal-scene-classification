@@ -14,7 +14,7 @@ import pandas as pd
 from definitions import (TAU_CSV_DIR, TAU_AUDIO_DIR, TAU_VIDEO_DIR,
                          TEST_CSV, LABELS, TRAIN_CSV, VAL_CSV,
                          TRAIN_SPLIT_CSV, SEED)
-from utilities.global_utilities import create_file_directory
+from utility.global_utilities import create_file_directory
 
 random.seed(SEED)
 
@@ -473,6 +473,6 @@ if __name__ == '__main__':
 
     if print_data_info:
         print("Printing data")
-        for file in [TRAIN_CSV, TRAIN_SPLIT_CSV]:
+        for file in [TRAIN_CSV, TEST_CSV]:
             data = get_scene_data(file)
             print_data(data, file)

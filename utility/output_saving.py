@@ -23,8 +23,8 @@ from definitions import (BEST_AUDIO_VGGISH_MODEL,
                          VISUAL_RESNET_TRAIN_FEATURES_FILE,
                          VISUAL_RESNET_VAL_FEATURES_FILE,
                          MODELS_TRAIN_OUTPUTS_FILE, MODELS_VAL_OUTPUTS_FILE)
-from utilities.fusion_functions import save_model_outputs
-from utilities.utilities import FusionData, load_model, create_multiple_features
+from utility.fusion_functions import save_model_outputs
+from utility.utilities import FusionData, load_model, create_multiple_features
 
 if __name__ == '__main__':
     device = 'cuda:0' if torch.cuda.is_available() else 'cpu'

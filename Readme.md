@@ -101,7 +101,7 @@ which should be located in the same folder as the local data folder.
 For different type of a folder structure, the [definitions.py](definitions.py)
 should be edited accordingly.
 
-In [csv_handling.py](utilities/csv_handling.py), a better version of these CSVs
+In [csv_handling.py](utility/csv_handling.py), a better version of these CSVs
 is created
 and saved to the local data folder. The training data is then split in the
 training CSV,
@@ -128,7 +128,7 @@ and hyperparameters of the specific sub-network.
 
 ### Combining the base models
 After all the base models are trained, their outputs for the different data
-sets are stacked in [output_saving.py](utilities/output_saving.py). These stacked outputs
+sets are stacked in [output_saving.py](utility/output_saving.py). These stacked outputs
 are the input to the combiners.
 
 The trainable neural network combiner is trained in

@@ -14,7 +14,7 @@ from . import vggish_params, vggish_slim
 from . import vggish_input
 from definitions import (VGGISH_MODEL, VECTORS_PER_AUDIO,
                          AUDIO_VGGISH_EMBED)
-from utilities.global_utilities import time_estimation, create_file_directory
+from utility.global_utilities import time_estimation, create_file_directory
 
 
 def extract_features(csv_file: str, audio_dir: str, file_out_path: str):

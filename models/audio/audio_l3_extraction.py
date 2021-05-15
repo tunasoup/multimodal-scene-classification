@@ -17,7 +17,7 @@ from definitions import (AUDIO_L3_TRAIN_FEATURES_FILE,
                          TAU_AUDIO_DIR, VECTORS_PER_AUDIO,
                          AUDIO_L3_EMBED)
 
-from utilities.global_utilities import time_estimation, create_file_directory
+from utility.global_utilities import time_estimation, create_file_directory
 
 
 def extract_l3_audio_features(csv_file: str, audio_dir: str, file_out_path: str):

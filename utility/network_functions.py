@@ -10,7 +10,7 @@ from torch.utils.data import Dataset, DataLoader
 import matplotlib.pyplot as plt
 
 from definitions import SEED, LABEL_COUNT, EPOCHS_AFTER_NEW_BEST
-from utilities.global_utilities import create_file_directory
+from utility.global_utilities import create_file_directory
 
 torch.manual_seed(SEED)
 

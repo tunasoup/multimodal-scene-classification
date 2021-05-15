@@ -14,7 +14,7 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 from torchvision.models import resnet50
 
-from utilities.global_utilities import time_estimation, create_file_directory
+from utility.global_utilities import time_estimation, create_file_directory
 from definitions import (IMAGE_TEST_DIR, IMAGE_TRAIN_DIR,
                          IMAGE_TRAIN_SPLIT_CSV,
                          VISUAL_RESNET_TRAIN_FEATURES_FILE,
