@@ -20,7 +20,8 @@ other operating systems.
 
 ## Results
 F1 scores of the base classifiers and the ensemble model on the test set
-can be seen in the table below.
+can be seen in the table below. The particular ensemble model uses a mean
+combiner without weights.
 
 | scene           | audio VGGish | audio OpenL3 | visual ResNet | visual OpenL3 | ensemble |
 |:----------------|--------------|--------------|---------------|---------------|----------|
